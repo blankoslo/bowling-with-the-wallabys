@@ -25,7 +25,8 @@ describe("Game", () => {
 	});
 
 	it("should score 20 on all 1s", () => {
-		
+		roll(1,20);
+		game.sum().should.equal(20);
 	})
 
 	

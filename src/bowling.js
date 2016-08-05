@@ -1,7 +1,7 @@
 var rolls = [];
 
-function roll(cones){
-	rolls.push(cones);
+function roll(pins){
+	rolls.push(pins);
 }
 
 function sum() {
